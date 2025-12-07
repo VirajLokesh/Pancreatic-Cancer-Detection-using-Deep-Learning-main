@@ -72,3 +72,41 @@ Pancreatic-Cancer-Detection-using-Deep-Learning-main/
 └── __pycache__/                   # Compiled Python cache files
 
 
+
+## 🛠️ Tech Stack & Tools
+
+- **Programming Language:** Python  
+- **Deep Learning:** Convolutional Neural Networks (CNN)  
+- **Web Framework:** Flask  
+- **Image Processing:** OpenCV  
+- **Data Handling:** NumPy  
+- **Frontend:** HTML, CSS, JavaScript  
+- **Visualization:** Matplotlib  
+- **Development Tools:** VS Code / PyCharm  
+
+
+## 🧠 Model & Workflow
+
+1. **Dataset Loading**
+   - Medical images are loaded from the `dataset/` folder.
+   - Images are preprocessed (resizing, normalization, noise removal).
+
+2. **Preprocessing**
+   - Images are converted to a suitable format for CNN input.
+   - Data is split into training and testing sets.
+
+3. **Model Training**
+   - A Convolutional Neural Network (CNN) is used for feature extraction and classification.
+   - The model is trained using the training dataset.
+
+4. **Model Evaluation**
+   - The trained model is evaluated using test images.
+   - Performance is measured using accuracy, confusion matrix, and comparison charts.
+
+5. **Prediction via Web App**
+   - The trained model is integrated with a Flask web application.
+   - Users can upload a medical image through the web interface.
+   - The model predicts whether cancer is detected or not.
+
+6. **Result Visualization**
+   - Graphs and comparison charts are generated and stored in `experiment_results/`.
