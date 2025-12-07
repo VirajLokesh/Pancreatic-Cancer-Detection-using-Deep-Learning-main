@@ -110,3 +110,16 @@ Pancreatic-Cancer-Detection-using-Deep-Learning-main/
 
 6. **Result Visualization**
    - Graphs and comparison charts are generated and stored in `experiment_results/`.
+
+
+## 📊 Results & Outputs
+
+- The model generates predictions on test images to identify the presence of pancreatic cancer.
+- Experimental results are saved inside the `experiment_results/` folder.
+- The following outputs are generated:
+  - **Accuracy comparison charts**
+  - **Confusion matrices** for different models
+  - **Time comparison graphs**
+  - **JSON files** containing prediction results and performance metrics
+- A detailed experiment summary is available in:
+
